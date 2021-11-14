@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inventory_management"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" SizeToContent="Manual" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/icon.png" Background="White">
     <Grid>
 
     </Grid>

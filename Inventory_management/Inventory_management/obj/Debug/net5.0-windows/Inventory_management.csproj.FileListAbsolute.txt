@@ -20,3 +20,13 @@ D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\In
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\ref\Inventory_management.dll
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.pdb
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.genruntimeconfig.cache
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\LoginPage.g.cs
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\LoginPage.baml
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\RegisterPage.g.cs
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\RegisterPage.baml
