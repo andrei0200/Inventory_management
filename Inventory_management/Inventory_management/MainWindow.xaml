@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inventory_management"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" SizeToContent="Manual" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/icon.png" Background="White">
+        Title="MainWindow" Height="550" Width="800" SizeToContent="Manual" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/icon.png" Background="White">
     <Grid>
+        <Button x:Name="logout" Content="Logout" HorizontalAlignment="Left" Margin="666,21,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_logout"/>
+        <Button x:Name="profil" Content="Profil" HorizontalAlignment="Left" Margin="667,81,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_profil"/>
+   
+
 
     </Grid>
 </Window>

@@ -34,7 +34,7 @@ namespace Inventory_management
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            String pass = password_text.Text;
+            String pass = password_text.Password;
             String username = username_text.Text;
 
             if (pass == "" || username == "")
@@ -42,34 +42,27 @@ namespace Inventory_management
                 MessageBox.Show("Nu ati introdus credentialele necesare!","EROARE", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-            if (pass == "pass" && username == "user")
-            {
-                MainWindow mainW = new MainWindow();
-                mainW.Show();
-                this.Close();
-                MessageBox.Show("Bine ai venit " + username, ":)");
-            }
-            else
-            {
-                MessageBox.Show("Nume sau parola incorecta!","ERAORE", MessageBoxButton.OK, MessageBoxImage.Warning);
-            }
-            //connection.Open();
-            //var cmd = connection.CreateCommand();
-            //cmd.CommandType = System.Data.CommandType.Text;
-            //cmd.CommandText = "select * from Utilizatori where Nume_Utilizator='" + username + "'and Parola='" + pass + "'";
 
-            //using (var rezultat = cmd.ExecuteReader())
-            //{
-            //    if (rezultat.Read())
-            //    {
-            //        MessageBox.Show("Bine ai venit " + username);
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Nume sau parola incorecta!");
-            //    }
-            //}
-            //connection.Close();
+            connection.Open();
+            var cmd = connection.CreateCommand();
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.CommandText = "select * from CREDENTIALE where NUME_UTILIZATOR='" + username + "'and PAROLA='" + pass + "'";
+
+            using (var rezultat = cmd.ExecuteReader())
+            {
+                if (rezultat.Read())
+                {
+                    MainWindow mainW = new MainWindow(username,pass);
+                    mainW.Show();
+                    this.Close();
+                    MessageBox.Show("Bine ai venit " + username, ":)");
+                }
+                else
+                {
+                    MessageBox.Show("Nume sau parola incorecta!", "ERAORE", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+            }
+            connection.Close();
         }
 
         private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
