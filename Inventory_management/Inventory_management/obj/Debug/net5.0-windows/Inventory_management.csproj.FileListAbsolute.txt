@@ -30,36 +30,3 @@ D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\In
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\RegisterPage.g.cs
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\RegisterPage.baml
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\Inventory_management.exe
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\Inventory_management.deps.json
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\Inventory_management.runtimeconfig.json
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\Inventory_management.runtimeconfig.dev.json
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\Inventory_management.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\ref\Inventory_management.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\Inventory_management.pdb
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.csprojAssemblyReference.cache
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\LoginPage.g.cs
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\MainWindow.g.cs
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\RegisterPage.g.cs
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\App.g.cs
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management_MarkupCompile.cache
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management_MarkupCompile.lref
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\LoginPage.baml
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\MainWindow.baml
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\RegisterPage.baml
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.g.resources
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.GeneratedMSBuildEditorConfig.editorconfig
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.AssemblyInfoInputs.cache
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.AssemblyInfo.cs
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.csproj.CoreCompileInputs.cache
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.csproj.CopyComplete
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\ref\Inventory_management.dll
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.pdb
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.genruntimeconfig.cache
