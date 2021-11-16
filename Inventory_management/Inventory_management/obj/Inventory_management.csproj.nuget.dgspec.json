@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Facultaturi\\Anul III\\Sem1\\5C - Ap Baze de Date (MARGHESCU + NITA)\\Project1\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj": {}
+    "E:\\FACULTATE\\ANUL3\\Inventory management\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj": {}
   },
   "projects": {
-    "D:\\Facultaturi\\Anul III\\Sem1\\5C - Ap Baze de Date (MARGHESCU + NITA)\\Project1\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj": {
+    "E:\\FACULTATE\\ANUL3\\Inventory management\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultaturi\\Anul III\\Sem1\\5C - Ap Baze de Date (MARGHESCU + NITA)\\Project1\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj",
+        "projectUniqueName": "E:\\FACULTATE\\ANUL3\\Inventory management\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj",
         "projectName": "Inventory_management",
-        "projectPath": "D:\\Facultaturi\\Anul III\\Sem1\\5C - Ap Baze de Date (MARGHESCU + NITA)\\Project1\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultaturi\\Anul III\\Sem1\\5C - Ap Baze de Date (MARGHESCU + NITA)\\Project1\\Inventory_management\\Inventory_management\\Inventory_management\\obj\\",
+        "projectPath": "E:\\FACULTATE\\ANUL3\\Inventory management\\Inventory_management\\Inventory_management\\Inventory_management\\Inventory_management.csproj",
+        "packagesPath": "C:\\Users\\Razva\\.nuget\\packages\\",
+        "outputPath": "E:\\FACULTATE\\ANUL3\\Inventory management\\Inventory_management\\Inventory_management\\Inventory_management\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Razva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
