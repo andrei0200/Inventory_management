@@ -32,8 +32,20 @@ namespace Inventory_management
             this.Close();
         }
 
+        bool info_visi = true;
         private void Button_profil(object sender, RoutedEventArgs e)
         {
+            
+            if (info_visi)
+            {
+                profile_info.Visibility = Visibility.Hidden;
+                info_visi = false;
+            }
+            else
+            {
+                profile_info.Visibility = Visibility.Visible;
+                info_visi = true;
+            }
 
         }
     }
