@@ -55,7 +55,7 @@ namespace Inventory_management
                     MainWindow mainW = new MainWindow(username,pass);
                     mainW.Show();
                     this.Close();
-                    MessageBox.Show("Bine ai venit " + username, ":)");
+                    MessageBox.Show("Bine ai venit, " + username, " :)");
                 }
                 else
                 {

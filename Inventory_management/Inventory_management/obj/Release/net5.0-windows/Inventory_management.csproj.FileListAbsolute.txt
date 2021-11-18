@@ -24,3 +24,12 @@ E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_managemen
 E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\ref\Inventory_management.dll
 E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\Inventory_management.pdb
 E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\Inventory_management.csprojAssemblyReference.cache
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Release\net5.0-windows\Inventory_management.deps.json
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Release\net5.0-windows\Inventory_management.runtimeconfig.json
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Release\net5.0-windows\Inventory_management.runtimeconfig.dev.json
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Release\net5.0-windows\Inventory_management.dll
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Release\net5.0-windows\ref\Inventory_management.dll
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\bin\Release\net5.0-windows\Inventory_management.pdb
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\AddInventory.g.cs
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\AddInventory.baml
+E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\Inventory_management.genruntimeconfig.cache

@@ -10,11 +10,11 @@ none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\App.xaml
-31065194844
+4-1205049283
 
-7-1914567165
+81982234484
 194447802835
-LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;
+AddInventory.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;
 
-False
+True
 

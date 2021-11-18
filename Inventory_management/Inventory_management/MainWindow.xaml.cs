@@ -31,7 +31,7 @@ namespace Inventory_management
 
 
 
-        void getCategorie()
+        int getCategorie()
         {
             connection.Open();
 
@@ -57,9 +57,10 @@ namespace Inventory_management
 
             categ.Close();
             connection.Close();
+            return id_angajat;
         }
 
-
+        
 
         public MainWindow(string username, string pass)
         {
@@ -120,6 +121,9 @@ namespace Inventory_management
      
         private void ButtonADD_Click(object sender, RoutedEventArgs e)
         {
+            int id = getCategorie();
+            AddInventory ADD = new AddInventory(username,id);
+            ADD.Show();
 
         }
 
