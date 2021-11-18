@@ -27,10 +27,45 @@ namespace Inventory_management
         DataSet set = new DataSet();
         SqlDataAdapter adapter = new SqlDataAdapter();
         string username;
-        public MainWindow(string username,string pass)
+
+
+
+
+        void getCategorie()
+        {
+            connection.Open();
+
+            var cmdGetId = connection.CreateCommand();
+            cmdGetId.CommandType = System.Data.CommandType.Text;
+            cmdGetId.CommandText = "select ANGAJATI_ID from DETALII_CONT inner join ANGAJATI ON ANGAJATI.CONT_ID = DETALII_CONT.CONT_ID inner join CREDENTIALE ON CREDENTIALE.CREDENTIALE_ID = ANGAJATI.CREDENTIALE_ID WHERE NUME_UTILIZATOR = '" + username + "'";
+            var id = cmdGetId.ExecuteReader();
+            id.Read();
+            int id_angajat = id.GetInt32(0);
+            id.Close();
+
+
+
+
+
+            var cmd = connection.CreateCommand();
+            cmd.CommandType = System.Data.CommandType.Text;
+            cmd.CommandText = "select * FROM CATEGORIE_PRODUSE as C inner join PRODUSE as P on P.CATEGORIE_ID = C.CATEGORIE_ID where C.CATEGORIE_ID = '" + id_angajat + "'";
+            var categ = cmd.ExecuteReader();
+            categ.Read();
+            categoria.Content = "Manager categoria   ->" + categ.GetValue(2).ToString() + "<-";
+
+
+            categ.Close();
+            connection.Close();
+        }
+
+
+
+        public MainWindow(string username, string pass)
         {
             InitializeComponent();
             this.username = username;
+            getCategorie();
         }
 
         private void Button_logout(object sender, RoutedEventArgs e)
@@ -40,18 +75,22 @@ namespace Inventory_management
             this.Close();
         }
 
-        bool info_visi = true;
+        bool main = true;
         private void Button_profil(object sender, RoutedEventArgs e)
         {
-            if (info_visi)
+            if (main)
             {
                 profile_info.Visibility = Visibility.Visible;
-                info_visi = false;
+                main_page.Visibility = Visibility.Hidden;
+                profil.Content = "Main";
+                main = false;
             }
             else
             {
                 profile_info.Visibility = Visibility.Hidden;
-                info_visi = true;
+                main_page.Visibility = Visibility.Visible;
+                profil.Content = "Profil";
+                main = true;
             }
 
 
@@ -60,16 +99,32 @@ namespace Inventory_management
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = "select NUME, PRENUME, ADRESA_EMAIL, DATA_NASTERE, TARA, ORAS from DETALII_CONT inner join ANGAJATI ON ANGAJATI.CONT_ID = DETALII_CONT.CONT_ID inner join CREDENTIALE ON CREDENTIALE.CREDENTIALE_ID = ANGAJATI.CREDENTIALE_ID WHERE NUME_UTILIZATOR = '" + username + "'";
             SqlDataReader da = cmd.ExecuteReader();
-            while(da.Read())
-            {
-                label.Content = da.GetValue(0).ToString();
-                label1.Content = da.GetValue(1).ToString();
-                label2.Content = da.GetValue(2).ToString();
-                label3.Content = da.GetValue(3).ToString();
-                label4.Content = da.GetValue(4).ToString();
-                label5.Content = da.GetValue(5).ToString();
-            }
+            da.Read();
+
+            label.Content = da.GetValue(0).ToString();
+            label1.Content = da.GetValue(1).ToString();
+            label2.Content = da.GetValue(2).ToString();
+            label3.Content = da.GetValue(3).ToString().Substring(0, 10);
+            label4.Content = da.GetValue(4).ToString();
+            label5.Content = da.GetValue(5).ToString();
+            username_label.Content = "(" + da.GetValue(0).ToString() + da.GetValue(1).ToString() + ")";
+
+            da.Close();
+
+
+
             connection.Close();
+
+        }
+
+     
+        private void ButtonADD_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonDEL_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

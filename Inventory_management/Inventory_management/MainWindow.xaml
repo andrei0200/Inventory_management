@@ -10,24 +10,27 @@
         <Button x:Name="logout" Content="Logout" HorizontalAlignment="Left" Margin="666,21,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_logout"/>
         <Button x:Name="profil" Content="Profil" HorizontalAlignment="Left" Margin="529,21,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_profil"/>
         <Grid x:Name="profile_info" Margin="0,101,0,0" Visibility="Hidden">
-            <Label Content="Detalii Cont" HorizontalAlignment="Left" Margin="280,10,0,0" VerticalAlignment="Top" Height="37" Width="120" FontSize="20" RenderTransformOrigin="0.492,0.587"/>
-            <Label Content="Nume:" HorizontalAlignment="Left" Margin="59,87,0,0" VerticalAlignment="Top" Height="37" Width="120" FontSize="20" RenderTransformOrigin="0.492,0.587"/>
-            <Label Content="Prenume:" HorizontalAlignment="Left" Margin="59,129,0,0" VerticalAlignment="Top" Height="37" Width="120" FontSize="20" RenderTransformOrigin="0.492,0.587"/>
-            <Label Content="Email:" HorizontalAlignment="Left" Margin="59,175,0,0" VerticalAlignment="Top" Height="37" Width="120" FontSize="20" RenderTransformOrigin="0.492,0.587"/>
-            <Label Content="Data de nastere:" HorizontalAlignment="Left" Margin="59,217,0,0" VerticalAlignment="Top" Height="37" Width="155" FontSize="20" RenderTransformOrigin="0.492,0.587"/>
-            <Label Content="Tara:" HorizontalAlignment="Left" Margin="59,259,0,0" VerticalAlignment="Top" Height="37" Width="120" FontSize="20" RenderTransformOrigin="0.492,0.587"/>
-            <Label Content="Oras:" HorizontalAlignment="Left" Margin="59,301,0,0" VerticalAlignment="Top" Height="37" Width="120" FontSize="20" RenderTransformOrigin="0.492,0.587"/>
-            <Label x:Name="label" HorizontalAlignment="Left" Margin="140,93,0,0" VerticalAlignment="Top" Width="74" Height="31" HorizontalContentAlignment="Left"/>
-            <Label x:Name="label1" HorizontalAlignment="Left" Margin="173,135,0,0" VerticalAlignment="Top"  Width="74" Height="31"/>
-            <Label x:Name="label2" HorizontalAlignment="Left" Margin="140,181,0,0" VerticalAlignment="Top" Width="108" Height="31"/>
-            <Label x:Name="label3" HorizontalAlignment="Left" Margin="219,223,0,0" VerticalAlignment="Top" Width="58" Height="31"/>
-            <Label x:Name="label4" HorizontalAlignment="Left" Margin="136,265,0,0" VerticalAlignment="Top" Width="74" Height="31"/>
-            <Label x:Name="label5" HorizontalAlignment="Left" Margin="136,307,0,0" VerticalAlignment="Top" Width="74" Height="31"/>
-
-
+            <Label Content="Detalii Cont" HorizontalAlignment="Left" Margin="242,14,0,0" VerticalAlignment="Top" Height="50" Width="188" FontSize="28" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
+            <Label Content="Nume -&gt; " HorizontalAlignment="Left" Margin="59,80,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
+            <Label Content="Prenume -&gt; " HorizontalAlignment="Left" Margin="59,120,0,0" VerticalAlignment="Top" Height="40" Width="174" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
+            <Label Content="Emai -&gt; " HorizontalAlignment="Left" Margin="59,160,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
+            <Label Content="Data de nastere -&gt;" HorizontalAlignment="Left" Margin="59,200,0,0" VerticalAlignment="Top" Height="40" Width="299" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
+            <Label Content="Tara -&gt;" HorizontalAlignment="Left" Margin="59,240,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
+            <Label Content="Oras -&gt;" HorizontalAlignment="Left" Margin="59,280,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
+            <Label x:Name="label" HorizontalAlignment="Left" Margin="199,80,0,0" VerticalAlignment="Top" Width="195" Height="40" HorizontalContentAlignment="Left" FontSize="24" Content="" FontWeight="Bold"/>
+            <Label x:Name="label1" HorizontalAlignment="Left" Margin="232,120,0,0" VerticalAlignment="Top"  Width="247" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label2" HorizontalAlignment="Left" Margin="174,160,0,0" VerticalAlignment="Top" Width="266" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label3" HorizontalAlignment="Left" Margin="299,200,0,0" VerticalAlignment="Top" Width="297" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label4" HorizontalAlignment="Left" Margin="171,240,0,0" VerticalAlignment="Top" Width="250" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label5" HorizontalAlignment="Left" Margin="178,280,0,0" VerticalAlignment="Top" Width="178" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="username_label" HorizontalAlignment="Left" Margin="411,17,0,0" VerticalAlignment="Top" Width="267" Height="50" Content="" FontSize="24" FontWeight="Bold"/>
+        </Grid>
+        <Grid x:Name="main_page" Margin="0,101,0,0" Visibility="Visible">
+            <Label x:Name="categoria"  Content="Manager categoria   -&gt; Legume&lt;-" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
 
         </Grid>
-
-
+        <DataGrid Margin="30,182,29,29"/>
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="539,131,0,0" VerticalAlignment="Top" Height="31" Width="62" Click="ButtonADD_Click"/>
+        <Button Content="DILIT" HorizontalAlignment="Left" Margin="648,131,0,0" VerticalAlignment="Top" Height="31" Width="62"  Click="ButtonDEL_Click"/>
     </Grid>
 </Window>

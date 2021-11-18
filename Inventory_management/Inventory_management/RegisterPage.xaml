@@ -8,7 +8,7 @@
         Title="RegisterPage" Height="451" Width="520" SizeToContent="Manual" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/icon.png" Background="White">
     <Grid>
         <Image HorizontalAlignment="Left" Height="149"  VerticalAlignment="Top" Width="496" Source="/image2.png"/>
-        <Button Content="Register" Margin="40,347,365,0" VerticalAlignment="Top" Height="42" FontSize="20" FontWeight="Normal" FontStyle="Normal"/>
+        <Button Content="Register" Margin="40,347,365,0" VerticalAlignment="Top" Height="42" FontSize="20" FontWeight="Normal" FontStyle="Normal" Click="Button_Click"/>
         <Label Content="Back to login" FontSize="20" MouseDoubleClick="Label_MouseDoubleClick"  Margin="335,349,29,19" />
         <Label Content="Nume" HorizontalAlignment="Left" Margin="29,124,0,0" VerticalAlignment="Top" Height="40" Width="148" FontSize="20"/>
         <Label Content="Prenume" HorizontalAlignment="Left" Margin="29,158,0,0" VerticalAlignment="Top" Height="40" Width="148" FontSize="20"/>
@@ -17,13 +17,13 @@
         <Label Content="Data nasterii" HorizontalAlignment="Left" Margin="29,260,0,0" VerticalAlignment="Top" Height="40" Width="148" FontSize="20"/>
         <Label Content="Tara" HorizontalAlignment="Left" Margin="29,294,0,0" VerticalAlignment="Top" Height="40" Width="148" FontSize="20"/>
         <Label Content="Oras" HorizontalAlignment="Left" Margin="245,294,0,0" VerticalAlignment="Top" Height="40" Width="148" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="179,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="179,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="179,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="179,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="179,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="80,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Margin="301,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" FontSize="20"/>
+        <TextBox x:Name="in_nume" HorizontalAlignment="Left" Margin="179,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
+        <TextBox x:Name="in_prenume" HorizontalAlignment="Left" Margin="179,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
+        <TextBox x:Name="in_email" HorizontalAlignment="Left" Margin="179,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
+        <TextBox x:Name="in_parola" HorizontalAlignment="Left" Margin="179,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
+        <TextBox x:Name="in_dataN" HorizontalAlignment="Left" Margin="179,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" FontSize="20"/>
+        <TextBox x:Name="in_tara" HorizontalAlignment="Left" Margin="80,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151" FontSize="20"/>
+        <TextBox x:Name="in_oras" HorizontalAlignment="Left" Margin="301,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" FontSize="20"/>
 
     </Grid>
 </Window>
