@@ -21,6 +21,9 @@
     <Page Update="AddInventory.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Delete_page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginPage.xaml">
       <SubType>Designer</SubType>
     </Page>

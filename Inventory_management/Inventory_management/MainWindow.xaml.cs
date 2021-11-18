@@ -24,11 +24,9 @@ namespace Inventory_management
     {
         static String connectionString = "Server=.;Database=Inventory_Management;Trusted_Connection=true";
         SqlConnection connection = new SqlConnection(connectionString);
-        DataSet set = new DataSet();
-        SqlDataAdapter adapter = new SqlDataAdapter();
+        DataSet DS = new DataSet();
+        SqlDataAdapter DA = new SqlDataAdapter();
         string username;
-
-
 
 
         int getCategorie()
@@ -45,8 +43,6 @@ namespace Inventory_management
 
 
 
-
-
             var cmd = connection.CreateCommand();
             cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = "select * FROM CATEGORIE_PRODUSE as C inner join PRODUSE as P on P.CATEGORIE_ID = C.CATEGORIE_ID where C.CATEGORIE_ID = '" + id_angajat + "'";
@@ -54,13 +50,22 @@ namespace Inventory_management
             categ.Read();
             categoria.Content = "Manager categoria   ->" + categ.GetValue(2).ToString() + "<-";
 
-
             categ.Close();
+
+            var Produse = connection.CreateCommand();
+            Produse.CommandType = System.Data.CommandType.Text;
+            Produse.CommandText = "select PRODUSE_ID, NUME, NUMAR_PRODUSE, PRET_BUCATA, DATA_FABRICATIE, DATA_EXPIRARE FROM  PRODUSE  where PRODUSE.CATEGORIE_ID = '" + id_angajat + "'";
+
+            DA.SelectCommand = Produse;
+            DS.Clear();
+            DA.Fill(DS, "PRODUSE");
+            DataGrid_Prod.ItemsSource = DS.Tables[0].DefaultView;
+
             connection.Close();
             return id_angajat;
         }
 
-        
+
 
         public MainWindow(string username, string pass)
         {
@@ -94,7 +99,6 @@ namespace Inventory_management
                 main = true;
             }
 
-
             connection.Open();
             var cmd = connection.CreateCommand();
             cmd.CommandType = System.Data.CommandType.Text;
@@ -111,25 +115,26 @@ namespace Inventory_management
             username_label.Content = "(" + da.GetValue(0).ToString() + da.GetValue(1).ToString() + ")";
 
             da.Close();
-
-
-
             connection.Close();
-
         }
 
-     
+
         private void ButtonADD_Click(object sender, RoutedEventArgs e)
         {
             int id = getCategorie();
-            AddInventory ADD = new AddInventory(username,id);
-            ADD.Show();
-
+            AddInventory A = new AddInventory(username, id);
+            A.Show();
         }
 
         private void ButtonDEL_Click(object sender, RoutedEventArgs e)
         {
+            Delete_page D = new Delete_page();
+            D.Show();
+        }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            getCategorie();
         }
     }
 }

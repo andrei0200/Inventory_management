@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Release\net5.0-windows\
 Inventory_management
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-E:\FACULTATE\ANUL3\Inventory management\Inventory_management\Inventory_management\Inventory_management\App.xaml
-4-1205049283
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\App.xaml
+58931759
 
-81982234484
-194447802835
-AddInventory.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;
+9-1672067014
+194590376317
+AddInventory.xaml;Delete_page.xaml;LoginPage.xaml;MainWindow.xaml;RegisterPage.xaml;
 
-True
+False
 

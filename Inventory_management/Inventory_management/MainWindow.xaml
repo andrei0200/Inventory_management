@@ -26,11 +26,12 @@
             <Label x:Name="username_label" HorizontalAlignment="Left" Margin="411,17,0,0" VerticalAlignment="Top" Width="267" Height="50" Content="" FontSize="24" FontWeight="Bold"/>
         </Grid>
         <Grid x:Name="main_page" Margin="0,101,0,0" Visibility="Visible">
-            <Label x:Name="categoria"  Content="Manager categoria   -&gt; Legume&lt;-" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="categoria"  Content="Manager categoria   -&gt; Legume &lt;-" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+            <DataGrid x:Name="DataGrid_Prod" Margin="30,123,29,33"/>
+            <Button Content="ADD" HorizontalAlignment="Left" Margin="551,30,0,0" VerticalAlignment="Top" Height="31" Width="62" Click="ButtonADD_Click"/>
+            <Button Content="DILIT" HorizontalAlignment="Left" Margin="671,33,0,0" VerticalAlignment="Top" Height="31" Width="62"  Click="ButtonDEL_Click"/>
+            <Button Content="Refresh" HorizontalAlignment="Left" Margin="696,83,0,0" VerticalAlignment="Top" Height="29" Width="75" Click="Button_Click"/>
 
-        <DataGrid Margin="30,182,29,29"/>
-        <Button Content="ADD" HorizontalAlignment="Left" Margin="539,131,0,0" VerticalAlignment="Top" Height="31" Width="62" Click="ButtonADD_Click"/>
-        <Button Content="DILIT" HorizontalAlignment="Left" Margin="648,131,0,0" VerticalAlignment="Top" Height="31" Width="62"  Click="ButtonDEL_Click"/>
         </Grid>
     </Grid>
 </Window>
