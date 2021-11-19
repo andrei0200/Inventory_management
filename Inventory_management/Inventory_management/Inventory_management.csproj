@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="add.png" />
+    <None Remove="addd.png" />
+    <None Remove="erase.jpg" />
     <None Remove="icon.png" />
     <None Remove="image1.png" />
     <None Remove="image2.png" />
@@ -18,6 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="add.png" />
+    <Resource Include="addd.png" />
+    <Resource Include="erase.jpg" />
     <Resource Include="icon.png" />
     <Resource Include="image1.png" />
     <Resource Include="image2.png" />

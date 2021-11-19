@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="550" Width="800" SizeToContent="Manual" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/icon.png" Background="White">
     <Grid>
-        <Button x:Name="logout" Content="Logout" HorizontalAlignment="Left" Margin="666,21,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_logout"/>
-        <Button x:Name="profil" Content="Profil" HorizontalAlignment="Left" Margin="529,21,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_profil"/>
-        <Grid x:Name="profile_info" Margin="0,101,0,0" Visibility="Hidden">
+        <Button x:Name="logout" Content="Logout" HorizontalAlignment="Left" Margin="668,45,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_logout"/>
+        <Button x:Name="profil" Content="Profil" HorizontalAlignment="Left" Margin="540,45,0,0" VerticalAlignment="Top" FontSize="20" Height="47" Width="103" Click="Button_profil"/>
+        <Grid x:Name="profile_info" Margin="0,117,0,-16" Visibility="Hidden">
             <Label Content="Detalii Cont" HorizontalAlignment="Left" Margin="242,14,0,0" VerticalAlignment="Top" Height="50" Width="188" FontSize="28" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
             <Label Content="Nume -&gt; " HorizontalAlignment="Left" Margin="59,80,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
             <Label Content="Prenume -&gt; " HorizontalAlignment="Left" Margin="59,120,0,0" VerticalAlignment="Top" Height="40" Width="174" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
@@ -17,21 +17,23 @@
             <Label Content="Data de nastere -&gt;" HorizontalAlignment="Left" Margin="59,200,0,0" VerticalAlignment="Top" Height="40" Width="299" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
             <Label Content="Tara -&gt;" HorizontalAlignment="Left" Margin="59,240,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
             <Label Content="Oras -&gt;" HorizontalAlignment="Left" Margin="59,280,0,0" VerticalAlignment="Top" Height="40" Width="120" FontSize="24" RenderTransformOrigin="0.492,0.587" FontWeight="Bold"/>
-            <Label x:Name="label" HorizontalAlignment="Left" Margin="199,80,0,0" VerticalAlignment="Top" Width="195" Height="40" HorizontalContentAlignment="Left" FontSize="24" Content="" FontWeight="Bold"/>
-            <Label x:Name="label1" HorizontalAlignment="Left" Margin="232,120,0,0" VerticalAlignment="Top"  Width="247" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
-            <Label x:Name="label2" HorizontalAlignment="Left" Margin="174,160,0,0" VerticalAlignment="Top" Width="266" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
-            <Label x:Name="label3" HorizontalAlignment="Left" Margin="299,200,0,0" VerticalAlignment="Top" Width="297" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
-            <Label x:Name="label4" HorizontalAlignment="Left" Margin="171,240,0,0" VerticalAlignment="Top" Width="250" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
-            <Label x:Name="label5" HorizontalAlignment="Left" Margin="178,280,0,0" VerticalAlignment="Top" Width="178" Height="40" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label" HorizontalAlignment="Left" Margin="199,80,0,0" VerticalAlignment="Top" Width="195" Height="46" HorizontalContentAlignment="Left" FontSize="24" Content="" FontWeight="Bold"/>
+            <Label x:Name="label1" HorizontalAlignment="Left" Margin="232,120,0,0" VerticalAlignment="Top"  Width="247" Height="46" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label2" HorizontalAlignment="Left" Margin="174,160,0,0" VerticalAlignment="Top" Width="417" Height="44" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label3" HorizontalAlignment="Left" Margin="299,200,0,0" VerticalAlignment="Top" Width="297" Height="46" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label4" HorizontalAlignment="Left" Margin="171,240,0,0" VerticalAlignment="Top" Width="250" Height="46" Content="" FontSize="24" FontWeight="Bold"/>
+            <Label x:Name="label5" HorizontalAlignment="Left" Margin="178,280,0,0" VerticalAlignment="Top" Width="200" Height="45" Content="" FontSize="24" FontWeight="Bold"/>
             <Label x:Name="username_label" HorizontalAlignment="Left" Margin="411,17,0,0" VerticalAlignment="Top" Width="267" Height="50" Content="" FontSize="24" FontWeight="Bold"/>
+            <Image Margin="474,87,30,77" Stretch="Fill" Source="add.png" Visibility="Visible"/>
         </Grid>
         <Grid x:Name="main_page" Margin="0,101,0,0" Visibility="Visible">
             <Label x:Name="categoria"  Content="Manager categoria   -&gt; Legume &lt;-" HorizontalAlignment="Left" Margin="32,23,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
             <DataGrid x:Name="DataGrid_Prod" Margin="30,123,29,33"/>
-            <Button Content="ADD" HorizontalAlignment="Left" Margin="551,30,0,0" VerticalAlignment="Top" Height="31" Width="62" Click="ButtonADD_Click"/>
-            <Button Content="DILIT" HorizontalAlignment="Left" Margin="671,33,0,0" VerticalAlignment="Top" Height="31" Width="62"  Click="ButtonDEL_Click"/>
-            <Button Content="Refresh" HorizontalAlignment="Left" Margin="696,83,0,0" VerticalAlignment="Top" Height="29" Width="75" Click="Button_Click"/>
+            <Button Content="ADD" HorizontalAlignment="Left" Margin="607,76,0,0" VerticalAlignment="Top" Height="35" Width="65" Click="ButtonADD_Click"/>
+            <Button Content="DEL" HorizontalAlignment="Left" Margin="688,76,0,0" VerticalAlignment="Top" Height="35" Width="65"  Click="ButtonDEL_Click"/>
+            <Button Content="Refresh" HorizontalAlignment="Left" Margin="31,82,0,0" VerticalAlignment="Top" Height="29" Width="75" Click="Button_Click"/>
 
         </Grid>
+        <Image Margin="19,10,267,407" Stretch="Fill" Source="image2.png"/>
     </Grid>
 </Window>
