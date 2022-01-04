@@ -27,6 +27,7 @@ namespace Inventory_management
         DataSet DS = new DataSet();
         SqlDataAdapter DA = new SqlDataAdapter();
         string username;
+        //InventoryManagerClassDataContext context = new InventoryManagerClassDataContext("");
 
 
         int getCategorie()
@@ -135,6 +136,18 @@ namespace Inventory_management
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             getCategorie();
+        }
+
+        private void ButtonPrice_Click(object sender, RoutedEventArgs e)
+        {
+            Price_page P = new Price_page();
+            P.Show();
+        }
+
+        private void ButtonBuc_Click(object sender, RoutedEventArgs e)
+        {
+            NrBuc N = new NrBuc();
+            N.Show();
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Inventory_management"
         mc:Ignorable="d"
-        Title="Delete_page" Height="400" Width="490">
+        Title="Delete_page" Height="400" Width="490" WindowStartupLocation="CenterScreen" Icon="/icon.png">
     <Grid>
         <Image Margin="208,208,0,0" Stretch="Fill" Source="/erase.jpg"/>
         <Button Content="Erase" HorizontalAlignment="Left" Margin="47,260,0,0" VerticalAlignment="Top" Height="47" Width="99" FontSize="24" FontWeight="Bold" Click="Button_Click"/>

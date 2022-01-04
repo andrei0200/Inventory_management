@@ -69,3 +69,8 @@ D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\In
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Delete_page.g.cs
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\AddInventory.baml
 D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Delete_page.baml
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Price_page.g.cs
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Price_page.baml
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\NrBuc.g.cs
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\NrBuc.baml
+D:\Facultaturi\Anul III\Sem1\5C - Ap Baze de Date (MARGHESCU + NITA)\Project1\Inventory_management\Inventory_management\Inventory_management\obj\Debug\net5.0-windows\Inventory_management.csproj.CopyComplete

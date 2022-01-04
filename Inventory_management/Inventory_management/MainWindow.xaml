@@ -32,7 +32,8 @@
             <Button Content="ADD" HorizontalAlignment="Left" Margin="607,76,0,0" VerticalAlignment="Top" Height="35" Width="65" Click="ButtonADD_Click"/>
             <Button Content="DEL" HorizontalAlignment="Left" Margin="688,76,0,0" VerticalAlignment="Top" Height="35" Width="65"  Click="ButtonDEL_Click"/>
             <Button Content="Refresh" HorizontalAlignment="Left" Margin="31,82,0,0" VerticalAlignment="Top" Height="29" Width="75" Click="Button_Click"/>
-
+            <Button Content="PRICE" HorizontalAlignment="Left" Margin="527,76,0,0" VerticalAlignment="Top" Height="35" Width="65" Click="ButtonPrice_Click"/>
+            <Button Content="Nr Prod" HorizontalAlignment="Left" Margin="447,76,0,0" VerticalAlignment="Top" Height="35" Width="65" Click="ButtonBuc_Click"/>
         </Grid>
         <Image Margin="19,10,267,407" Stretch="Fill" Source="image2.png"/>
     </Grid>
