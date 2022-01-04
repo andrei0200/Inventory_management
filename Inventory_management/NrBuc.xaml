@@ -1,0 +1,19 @@
+﻿<Window x:Class="Inventory_Manager.NrBuc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Inventory_Manager"
+        mc:Ignorable="d"
+        Title="NrBuc" Height="400" Width="490" WindowStartupLocation="CenterScreen" Icon="/icon.png">
+    <Grid>
+        <Image Margin="275,201,-12,-9" Stretch="Fill" Source="/pen.jpg" />
+        <Image Margin="8,12,3,252" Stretch="Fill" Source="image2.png"/>
+        <Button Content="Change" HorizontalAlignment="Left" Margin="89,290,0,0" VerticalAlignment="Top" Height="47" Width="105" FontSize="24" FontWeight="Bold" Click="Button_Click"/>
+        <Label Content="ID produs  -&gt;" HorizontalAlignment="Left" Margin="46,158,0,0" VerticalAlignment="Top" Height="54" Width="171" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Nr buc  -&gt;" HorizontalAlignment="Left" Margin="46,207,0,0" VerticalAlignment="Top" Height="54" Width="171" FontSize="24" FontWeight="Bold"/>
+        <TextBox x:Name="id_prod" HorizontalAlignment="Left" Margin="250,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="44" FontSize="36" FontWeight="Bold" Text="-" TextAlignment="Center"/>
+        <TextBox x:Name="new_nr" HorizontalAlignment="Left" Margin="250,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="44" FontSize="36" FontWeight="Bold" Text="-" TextAlignment="Center"/>
+
+    </Grid>
+</Window>

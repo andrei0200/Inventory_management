@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Inventory_Management" Class="Inv_ManagerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Inventory_Management;Integrated Security=True" SettingsObjectName="Inventory_Manager.Properties.Settings" SettingsPropertyName="Inventory_ManagementConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ANGAJATI" Member="ANGAJATIs">
+    <Type Name="ANGAJATI">
+      <Column Name="ANGAJATI_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CREDENTIALE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CONT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ANUL_ANGAJARII" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="ANGAJATI_CATEGORIE_PRODUSE" Member="CATEGORIE_PRODUSEs" ThisKey="ANGAJATI_ID" OtherKey="ANGAJAT_ID" Type="CATEGORIE_PRODUSE" />
+      <Association Name="CREDENTIALE_ANGAJATI" Member="CREDENTIALE" ThisKey="CREDENTIALE_ID" OtherKey="CREDENTIALE_ID" Type="CREDENTIALE" IsForeignKey="true" />
+      <Association Name="DETALII_CONT_ANGAJATI" Member="DETALII_CONT" ThisKey="CONT_ID" OtherKey="CONT_ID" Type="DETALII_CONT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CATEGORIE_PRODUSE" Member="CATEGORIE_PRODUSEs">
+    <Type Name="CATEGORIE_PRODUSE">
+      <Column Name="CATEGORIE_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ANGAJAT_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NUME" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="CATEGORIE_PRODUSE_PRODUSE" Member="PRODUSEs" ThisKey="CATEGORIE_ID" OtherKey="CATEGORIE_ID" Type="PRODUSE" />
+      <Association Name="ANGAJATI_CATEGORIE_PRODUSE" Member="ANGAJATI" ThisKey="ANGAJAT_ID" OtherKey="ANGAJATI_ID" Type="ANGAJATI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CREDENTIALE" Member="CREDENTIALEs">
+    <Type Name="CREDENTIALE">
+      <Column Name="CREDENTIALE_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NUME_UTILIZATOR" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="PAROLA" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="CREDENTIALE_ANGAJATI" Member="ANGAJATIs" ThisKey="CREDENTIALE_ID" OtherKey="CREDENTIALE_ID" Type="ANGAJATI" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DETALII_CONT" Member="DETALII_CONTs">
+    <Type Name="DETALII_CONT">
+      <Column Name="CONT_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NUME" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="PRENUME" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ADRESA_EMAIL" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="DATA_NASTERE" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="TARA" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ORAS" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="DETALII_CONT_ANGAJATI" Member="ANGAJATIs" ThisKey="CONT_ID" OtherKey="CONT_ID" Type="ANGAJATI" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PRODUSE" Member="PRODUSEs">
+    <Type Name="PRODUSE">
+      <Column Name="PRODUSE_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CATEGORIE_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NUME" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="DATA_EXPIRARE" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DATA_FABRICATIE" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="NUMAR_PRODUSE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PRET_BUCATA" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="CATEGORIE_PRODUSE_PRODUSE" Member="CATEGORIE_PRODUSE" ThisKey="CATEGORIE_ID" OtherKey="CATEGORIE_ID" Type="CATEGORIE_PRODUSE" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
